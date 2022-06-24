@@ -16,22 +16,22 @@ global.APIs = {
 //// global.author = 'Darlyn | ≛ ⃝🧋•𝑫𝒂𝒓𝒍𝒚𝒏⸙𔘓ৎ୭🩹៸៸◗ ⋆ 🪜 ⏜⃞ჩ ♞ ᵈᵃʳˡʸⁿ — 𖦹࣪ᰍ\nhttps://appweb-darlyn.vercel.app𓈃ּ ៹🍏𝗱𝑎𝙧̲𝘭𝐲̲𝘯̲𐂂!s⁹⁷☻‹𝟹\\\
 //Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': 'sanzychan01', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
+	'https://zenzapis.xyz': '192e24e3a9b2', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
 }
 
 //customize settings\\
-global.owner = ['51918303426', '51923513366'] // cambiar numero del owner 
-global.premium = ['51918303426']              // cambiar numero premium
-global.ownernomer = '51918303426'             // cambiar numero del owner
-global.ownername = 'Darlyn'
-global.botname = '<div> 𝑆𝑜𝑓𝑓𝑓 </div>'
-global.footer = '<div> 𝑆𝑜𝑓𝑓𝑓 </div>'
-global.ig = 'https://appweb-darlyn.vercel.app'
+global.owner = ['996755994412'] // cambiar numero del owner 
+global.premium = ['996755994412']              // cambiar numero premium
+global.ownernomer = '996755994412'             // cambiar numero del owner
+global.ownername = '@┈━═☆🅰🅽🆅🅰🆁☆═━┈'
+global.botname = '<div> 🅶🅸🅶🅰🅱🅸🆃 </div>'
+global.footer = '<div> 🅶🅸🅶🅰🅱🅸🆃 </div>'
+global.ig = 'https://wa.me/996755994412'
 global.region = 'Peru, trujillo'
-global.sc = 'https://appweb-darlyn.vercel.app'
-global.myweb = 'https://github.com/darlyn1234/darl2-bot'
-global.packname = '𓈃ּ𝗱𝑎𝙧̲𝘭𝐲̲𝘯̲ᵇᵒᵗ'
-global.author = '---Darlyn --- 🩹⋆ ♞ᵇᵒᵗ⁻ᴹᴰ𐂂𖦹࣪'
+global.sc = 'https://wa.me/996755994412'
+global.myweb = 'https://Оно вам ненужно!'
+global.packname = 'стикеры от'
+global.author = '🅶🅸🅶🅰🅱🅸🆃'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'

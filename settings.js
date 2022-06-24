@@ -29,23 +29,23 @@ global.footer = '<div> 🅶🅸🅶🅰🅱🅸🆃 </div>'
 global.ig = 'https://wa.me/996755994412'
 global.region = 'Peru, trujillo'
 global.sc = 'https://wa.me/996755994412'
-global.myweb = 'https://Оно вам ненужно!'
+global.myweb = 'https://wa.me/996755994412'
 global.packname = 'стикеры от'
 global.author = '🅶🅸🅶🅰🅱🅸🆃'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Listo ✓',
-    admin: 'Esta función es solo para administradores!',
-    botAdmin: 'El bot debe ser administrador primero!',
-    owner: 'Esta función es solo para el owner!',
-    group: 'Función utilizada solo para grupos!',
-    private: 'Funciones utilizadas solo para chat privado!',
-    bot: 'Esta función es solo para bot',
-    wait: 'En proceso...',
-    error: 'Error! Posiblemente la ApiKey haya caducado!',
-    endLimit: 'Su límite diario ha expirado, el límite se restablecerá cada 12 horas',
+    success: '*ВЫПОЛНЕНО* ✓',
+    admin: '*Эта функция предназначена только для администраторов!*',
+    botAdmin: '*Для выполнения этой команды, БОТ должен быть администратором группы!*',
+    owner: '*Эта функция предназначена только для владельца!*',
+    group: '*Функция используется только для групп!*',
+    private: '*Функции, используемые только для приватного чата!*',
+    bot: '*Эта функция предназначена только для бота!*',
+    wait: '*ЗАГРУЖАЕТСЯ...*',
+    error: '*Ошибка! Возможно, срок действия ApiKey истек!*',
+    endLimit: '*Срок действия дневного лимита истек, лимит будет обнуляться каждые 12 часов*',
 }
     global.limitawal = {
     premium: "Infinity",

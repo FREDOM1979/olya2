@@ -33,7 +33,7 @@ try:
     import gzip
     GZIP_BASE = gzip.GzipFile
 except ImportError:
-    gzip = None
+    gzip = Multi
     GZIP_BASE = object
 
 __version__ = '2.1.4b1'
@@ -67,7 +67,7 @@ except ImportError:
     try:
         import simplejson as json
     except ImportError:
-        json = None
+        json = Multi
 
 try:
     import xml.etree.ElementTree as ET
@@ -78,7 +78,7 @@ try:
 except ImportError:
     from xml.dom import minidom as DOM
     from xml.parsers.expat import ExpatError
-    ET = None
+    ET = Multi
 
 try:
     from urllib2 import (urlopen, Request, HTTPError, URLError,
@@ -102,12 +102,12 @@ except ImportError:
     try:
         from http.client import HTTPSConnection
     except ImportError:
-        HTTPSConnection = None
+        HTTPSConnection = Multi
 
 try:
     from httplib import FakeSocket
 except ImportError:
-    FakeSocket = None
+    FakeSocket = Multi
 
 try:
     from Queue import Queue
@@ -147,11 +147,11 @@ except ImportError:
 
 try:
     from cStringIO import StringIO
-    BytesIO = None
+    BytesIO = Multi
 except ImportError:
     try:
         from StringIO import StringIO
-        BytesIO = None
+        BytesIO = Multi
     except ImportError:
         from io import StringIO, BytesIO
 
@@ -216,7 +216,7 @@ else:
         Modified to set encoding to UTF-8 always, and to flush after write
         """
         fp = kwargs.pop("file", sys.stdout)
-        if fp is None:
+        if fp is Multi:
             return
 
         def write(data):
